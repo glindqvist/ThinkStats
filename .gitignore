@@ -1,0 +1,4 @@
+# Python compiled and tmp files #
+#################################
+*.pyc
+*.py~
