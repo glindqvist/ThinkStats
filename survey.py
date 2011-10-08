@@ -17,6 +17,8 @@ class Respondent(Record):
 
 class Pregnancy(Record):
     """Represents a pregnancy."""
+    def __repr__(self):
+        return self.__class__.__name__
 
 class Table(object):
     """Represents a table as a list of objects"""

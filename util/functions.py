@@ -1,10 +1,7 @@
 import math
 
 def mean(data):
-    numerator = float(sum(data))
-    denominator = float(len(data))
-    mean = numerator / denominator
-
+    mean = float(sum(data)) / len(data) 
     return mean
 
 def variance(data):
